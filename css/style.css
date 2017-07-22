@@ -1,0 +1,254 @@
+.banner{
+    height: 700px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.shade{
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    
+}
+.navbar-default .navbar-nav>li>a:hover {
+    border-bottom: 2px solid orange;
+    color: orange;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 30px;
+    line-height: 20px;
+    font-family: 'Pacifico', cursive;
+}
+.left-section {
+    padding-top: 150px;
+}
+.left-section ul{}
+.left-section ul li{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.left-section ul li h1{font-weight: 600;color: aqua;}
+.left-section p{
+    color: #beeff1;
+}
+.right-section{
+    position: absolute;
+    bottom: 0;
+    right: 8%;
+}
+.right-section img { 
+}
+
+/*
+@media (min-width:0px){
+    .right-section{
+        display: none
+    }
+    
+}
+
+@media (min-width:768px){
+    .right-section{
+        display: inherit
+    }
+    
+}
+*/
+
+@media (max-width:767px){
+    .right-section{
+        display: none
+    }
+}
+
+
+.side-img{
+    background: #ddd url(../images/banner.jpg);
+    /* position: relative; */
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    background-size: cover;
+}
+
+.joker-img{
+/*
+        position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+*/
+}
+
+
+
+
+
+
+
+.feature{
+    text-align: center;
+    padding: 59px;
+    height: 100%vh;
+    background-color: #d2d2d2;
+}
+.feature-content{}
+.feature h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: teal;
+}
+.feature p{
+    margin: 0 auto;
+    padding: 19px;
+    /* width: 715px; */
+    color: #101010;
+}
+
+.showcase{}
+.show-img{
+    height: 100%;
+    /* margin-left: 6em; */
+    width: 100%;
+    text-align: center;
+    border-radius: 50%;
+    border: 5px solid gray;
+    background-color: rgba(18, 84, 105, 0.74);
+}
+.show-img img{
+    /* width: 54%; */
+    /* text-align: center; */
+    /* border-radius: 50%; */
+    /* height: 54%; */
+}
+.show p{}
+
+
+.app-details{
+    /* margin: 0 auto; */
+    /* padding: 98px; */
+    background-color: #d2d2d2;
+    /* height: 50vh; */
+    min-height: 300px;
+}
+
+.about{
+    text-align: center;
+    padding: 46px;
+}
+.about h5{
+    text-align: center;
+}
+
+
+
+.pageination{
+    text-align: center;
+    /* margin-left: 394px; */
+}
+.pageination ul{
+    list-style: none;
+    /* text-align: center; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.pageination ul li{
+    float: left;
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    overflow: hidden;
+}
+.pageination ul li i{
+    text-align: c;
+    /* padding: 5px; */
+    /* margin-left: 68px; */
+    float: left;
+    margin-left: 18px;
+}
+
+.contact-logo{
+    width: 20%;
+    margin-bottom: 49px;
+    /* text-align: center; */
+}
+
+.contact-logo img{
+
+width: 100%;
+
+height: 20%;
+}
+
+.contact{
+    background-color: #545252;
+    padding: 70px;
+}
+
+.contact-icon{
+    font-size: 44px;
+    margin-top: 15px;
+    color: beige;
+    /* text-align: center; */
+}
+
+.contact p{
+    color: #1bd6d6;
+    text-align: left;
+    width: 207px;
+}
+
+.contact h4{
+    /* margin-top: 36px; */
+    font-size: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;
+    margin: 23px 0;
+}
+
+
+.copyright{}
+.copyright p{
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 12px;
+    font-weight: 700;
+}
+
+
+
+
+@media(max-width: 500px){
+    .app p{
+        display: none;
+    }
+}
+
+@media(max-width: 500px){
+    .feature-content p{
+        font-size: 8px;
+    }
+}

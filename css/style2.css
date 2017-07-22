@@ -1,0 +1,214 @@
+.banner{
+    height: 700px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.shade{
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    
+}
+.navbar-default .navbar-nav>li>a:hover {
+    border-bottom: 2px solid orange;
+    color: orange;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 30px;
+    line-height: 20px;
+    font-family: 'Pacifico', cursive;
+}
+.left-section {
+    padding-top: 150px;
+}
+.left-section ul{}
+.left-section ul li{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.left-section ul li h1{font-weight: 600;}
+.left-section p{
+    color: #beeff1;
+}
+.right-section{
+    position: absolute;
+    bottom: 0;
+    right: 8%;
+}
+.right-section img { 
+}
+
+/*
+@media (min-width:0px){
+    .right-section{
+        display: none
+    }
+    
+}
+
+@media (min-width:768px){
+    .right-section{
+        display: inherit
+    }
+    
+}
+*/
+
+@media (max-width:767px){
+    .right-section{
+        display: none
+    }
+}
+
+
+.side-img{
+    background: #ddd url(../images/banner.jpg);
+    /* position: relative; */
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    background-size: cover;
+}
+
+.joker-img{
+/*
+        position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+*/
+}
+
+
+
+
+
+.bg-img{
+    background: url(../images/sneakers-2259961.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: 'Pacifico', cursive;
+}
+
+.details {}
+.details h1{
+    color: #fff;
+    font-weight: 900;
+    text-shadow: 0 5px 0 #060606;
+}
+.details ul{
+    color: #fff;
+}
+.details li{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.details p{
+    color: #fff;
+    font-size: 20px;
+}
+.details .btn-custom{
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 4px 4px 0px #184e30;
+    background: #216941;
+    padding: 20px 30px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.form{}
+.form h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 0 0 30px;
+}
+.form {
+    background: seagreen;
+    padding: 40px 25px;
+    text-align: center;
+}
+.form-btn-custom{
+    display: block;
+    padding: 10px 30px;
+    font-size: 20px;
+    width: 100%;
+    background: #216941;
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 4px 4px 0px #184e30;
+}
+
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 6px 15px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+ 
+
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    height: 90%;
+    background:rgba(0,0,0,0.8);
+    transform: translate(-50%,-50%);
+}
+
+.box{
+
+position: absolute;
+
+left: 50%;
+
+top: 50%;
+
+transform: translate(-50%,-50%);
+}
+
+ input::placeholder {
+  color: white !important;
+}
+::selector{
+    background:red;
+}
